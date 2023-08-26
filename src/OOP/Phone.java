@@ -8,11 +8,17 @@ public class Phone {
     private int memorySize;
     private int camera;
 
-
+//////this is a constructor, it should always be public modiiefier
+//    public Phone(String name, int screenSize, int memorySize, int camera) {
+//        this.name = name;
+//        this.screenSize = screenSize;
+//        this.memorySize = memorySize;
+//        this.camera = camera;
+//    }
 
     /*
-    by defining methods you can hev behaviours for our classes
-     */
+        by defining methods you can hev behaviours for our classes
+         */
     public void playMusic(String trackName){
 
         System.out.println("Playing " + trackName);
