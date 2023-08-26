@@ -7,8 +7,9 @@ public class Main {
 
         //access fields
         iPhone.setName("iPhone 11");
-        iPhone.memorySize = 8;
+        iPhone.setMemorySize(120);
         System.out.println(iPhone.getName());
+        System.out.println(iPhone.getMemorySize() + "GB");
 
         iPhone.playMusic("Angels Wings");
         //reuse class

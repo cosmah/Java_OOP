@@ -4,9 +4,10 @@ public class Phone {
     //class properties, not instantiated so that it can be reused
     //make name property only accessible in that class
     private String name;
-    int screenSize;
-    int memorySize;
-    int camera;
+    private int screenSize;
+    private int memorySize;
+    private int camera;
+
 
 
     /*
@@ -28,4 +29,28 @@ public class Phone {
 
         return this.name;
     }
+
+    //screen size
+    public void setScreenSize(int screenSize){
+        this.screenSize = screenSize;
+    }
+
+    public int getScreenSize(){
+        return this.screenSize;
+    }
+
+    //memory
+    public void setMemorySize(int memorySize){
+        this.memorySize = memorySize;
+    }
+
+    public int getMemorySize(){
+        return this.memorySize;
+    }
+
+    //camera
+    public void setCamera(int camera){
+        this.camera = camera;
+    }
+
 }
