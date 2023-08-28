@@ -1,56 +1,32 @@
 package OOP;
 
-public class Bird {
-    private String name;
-    private String color;
-    private int legs;
-    private boolean hasTale;
+//inherit from animal(animal is parent class)
+public class Bird extends Animal {
 
-    //constructor
+    //add wing property
+    private int wings;
 
-    public Bird(String name, String color, int legs, boolean hasTale) {
-        this.name = name;
-        this.color = color;
-        this.legs = legs;
-        this.hasTale = hasTale;
+    public Bird(String name, String color, int legs, boolean hasTale, int wings) {
+        super(name, color, legs, hasTale);
+        this.wings = wings;
     }
 
-    //eating method
-    public void eat(String food){
-        System.out.println("Eating" + food);
+    //override eat method
+    @Override
+    public void eat(String food) {
+        super.eat(food);
+        System.out.println(this.getName() + " has finished eating.");
     }
 
-    //getter and setter
-
-    public String getName() {
-        return name;
+    public void fly(){
+        System.out.println(this.getName() + " is flying with " + getWings() + " wings.");
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public int getWings() {
+        return wings;
     }
 
-    public String getColor() {
-        return color;
-    }
-
-    public void setColor(String color) {
-        this.color = color;
-    }
-
-    public int getLegs() {
-        return legs;
-    }
-
-    public void setLegs(int legs) {
-        this.legs = legs;
-    }
-
-    public boolean isHasTale() {
-        return hasTale;
-    }
-
-    public void setHasTale(boolean hasTale) {
-        this.hasTale = hasTale;
+    public void setWings(int wings) {
+        this.wings = wings;
     }
 }

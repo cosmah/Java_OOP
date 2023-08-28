@@ -17,5 +17,28 @@ public class Main {
         iPhone.playMusic("Angels Wings");
         //reuse class
         iPhone.playMusic("Crack");
+
+        System.out.println("=========INHERITANCE===========");
+        Bird phoenix = new Bird("Nina", "Golden", 2, true, 2);
+        System.out.println(phoenix.getWings());
+
+        phoenix.eat("meat");
+        phoenix.fly();
+
     }
 }
+
+//polymorphism is where a class has multiple constructors
+
+
+
+
+
+
+
+
+
+
+
+
+
