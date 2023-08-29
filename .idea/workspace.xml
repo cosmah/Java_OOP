@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5405fa20-fb1d-4def-be97-f7a79cf91ef5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/oop/composition/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/oop/composition/Engine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/oop/composition/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OOP/Bird.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OOP/Dog.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -40,8 +39,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "E:/sck/projects/Java_OOP"
+    "ignore.virus.scanning.warn.message": "true"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
