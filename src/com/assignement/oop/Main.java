@@ -12,3 +12,6 @@ public class Main {
 
     }
 }
+
+
+//non static fields can not be referenced from a static field
